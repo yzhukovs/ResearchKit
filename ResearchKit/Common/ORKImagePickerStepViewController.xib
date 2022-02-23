@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Black</string>
+            <string>Avenir-Book</string>
+            <string>Avenir-Heavy</string>
+            <string>Avenir-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ORKImagePickerStepViewController">
+            <connections>
+                <outlet property="chooseImageButton" destination="sAe-kV-K45" id="BHG-F3-9Sk"/>
+                <outlet property="collectionView" destination="I6i-tR-HhH" id="wTG-6c-vjT"/>
+                <outlet property="nextButton" destination="2FX-Fs-ugb" id="Z4t-SF-8Xm"/>
+                <outlet property="skipQuestionButton" destination="6de-iO-Zf9" id="7tY-t2-TFO"/>
+                <outlet property="textLabel" destination="NG3-jJ-gdx" id="Fc6-Ta-G29"/>
+                <outlet property="titleLabel" destination="eqn-Hs-34g" id="NBd-Fh-Gwt"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAe-kV-K45">
+                    <rect key="frame" x="110.5" y="285.5" width="153" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Qhy-m6-yZf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                    <state key="normal" title="CHOOSE IMAGES">
+                        <color key="titleColor" red="0.0" green="0.37647058823529411" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="selectImageClicked:" destination="-1" eventType="touchUpInside" id="LjS-WR-OLe"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eqn-Hs-34g">
+                    <rect key="frame" x="20" y="40" width="335" height="41"/>
+                    <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="30"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="text" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NG3-jJ-gdx">
+                    <rect key="frame" x="26" y="115" width="323" height="30.5"/>
+                    <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6de-iO-Zf9">
+                    <rect key="frame" x="131.5" y="627" width="111" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Bmn-O6-Jyo"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                    <state key="normal" title="Skip this question"/>
+                    <connections>
+                        <action selector="skipButtonClicked:" destination="-1" eventType="touchUpInside" id="1Y4-Ka-Ja9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2FX-Fs-ugb" customClass="ORKContinueButton">
+                    <rect key="frame" x="111" y="571" width="152" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="152" id="6hn-p0-Mof"/>
+                        <constraint firstAttribute="height" constant="46" id="vCN-e1-2C5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="16"/>
+                    <state key="normal" title="Next"/>
+                    <connections>
+                        <action selector="nextButtonClicked:" destination="-1" eventType="touchUpInside" id="0dv-Ow-GjJ"/>
+                    </connections>
+                </button>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceHorizontal="YES" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="I6i-tR-HhH">
+                    <rect key="frame" x="16" y="155.5" width="343" height="120"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="Czh-9C-ktv"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="7qI-KC-IbL">
+                        <size key="itemSize" width="100" height="100"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="QO6-MK-gsp"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="6de-iO-Zf9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="94l-lz-fDO"/>
+                <constraint firstAttribute="trailing" secondItem="NG3-jJ-gdx" secondAttribute="trailing" constant="26" id="D9v-Td-HiF"/>
+                <constraint firstItem="sAe-kV-K45" firstAttribute="top" secondItem="I6i-tR-HhH" secondAttribute="bottom" constant="10" id="DdG-qo-Y5A"/>
+                <constraint firstAttribute="trailing" secondItem="I6i-tR-HhH" secondAttribute="trailing" constant="16" id="KDk-TJ-jUw"/>
+                <constraint firstItem="eqn-Hs-34g" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="KRT-4f-4Ax"/>
+                <constraint firstItem="6de-iO-Zf9" firstAttribute="top" secondItem="2FX-Fs-ugb" secondAttribute="bottom" constant="10" id="Obw-6f-nAx"/>
+                <constraint firstItem="sAe-kV-K45" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Suz-0C-lTy"/>
+                <constraint firstItem="NG3-jJ-gdx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="26" id="Tnv-fe-25j"/>
+                <constraint firstItem="NG3-jJ-gdx" firstAttribute="top" secondItem="eqn-Hs-34g" secondAttribute="bottom" constant="34" id="aqS-Nh-lbb"/>
+                <constraint firstAttribute="trailing" secondItem="eqn-Hs-34g" secondAttribute="trailing" constant="20" id="eOp-0H-QkY"/>
+                <constraint firstItem="eqn-Hs-34g" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="jtc-gf-dor"/>
+                <constraint firstItem="I6i-tR-HhH" firstAttribute="top" secondItem="NG3-jJ-gdx" secondAttribute="bottom" constant="10" id="nNA-Rs-zuc"/>
+                <constraint firstAttribute="bottom" secondItem="6de-iO-Zf9" secondAttribute="bottom" id="pEa-Wy-pkx"/>
+                <constraint firstItem="2FX-Fs-ugb" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vZb-Fb-trW"/>
+                <constraint firstItem="I6i-tR-HhH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="vcm-LY-QXG"/>
+            </constraints>
+            <point key="canvasLocation" x="27.5" y="52.5"/>
+        </view>
+        <tapGestureRecognizer id="EEM-nV-Pzm">
+            <connections>
+                <action selector="selectImageClicked:" destination="-1" id="Moy-62-Ygi"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

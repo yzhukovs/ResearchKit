@@ -39,6 +39,7 @@
 #import "ORKBodyItem.h"
 
 #import "ORKHelpers_Internal.h"
+@import UIKit;
 
 
 @implementation ORKStep

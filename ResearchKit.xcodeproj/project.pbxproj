@@ -163,6 +163,32 @@
 		2E80C1AA1FA2AA8D00399A0C /* ORKStreamingAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E80C1A91FA2AA8D00399A0C /* ORKStreamingAudioRecorder.m */; };
 		2EBFE11D1AE1B32D00CB8254 /* ORKUIViewAccessibilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFE11C1AE1B32D00CB8254 /* ORKUIViewAccessibilityTests.m */; };
 		2EBFE1201AE1B74100CB8254 /* ORKVoiceEngineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFE11F1AE1B74100CB8254 /* ORKVoiceEngineTests.m */; };
+		4410AC6327BF2ED100F75B00 /* ORKImagePickerStepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4410AC6127BF2DC500F75B00 /* ORKImagePickerStepViewController.xib */; };
+		446C313C27BCB84D00C61493 /* ORKImagePickerStepResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 446C311627BCB84D00C61493 /* ORKImagePickerStepResult.m */; };
+		446C313D27BCB84D00C61493 /* ORKImagePickerStepViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 446C311727BCB84D00C61493 /* ORKImagePickerStepViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446C313E27BCB84D00C61493 /* ORKImagePickerStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446C311827BCB84D00C61493 /* ORKImagePickerStepViewController.m */; };
+		446C313F27BCB84D00C61493 /* ORKImagePickerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 446C311927BCB84D00C61493 /* ORKImagePickerCollectionViewCell.m */; };
+		446C314027BCB84D00C61493 /* GMImagePicker.strings in Resources */ = {isa = PBXBuildFile; fileRef = 446C311B27BCB84D00C61493 /* GMImagePicker.strings */; };
+		446C314127BCB84D00C61493 /* GMAlbumsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 446C311D27BCB84D00C61493 /* GMAlbumsViewController.h */; };
+		446C314227BCB84D00C61493 /* GMGridViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 446C311F27BCB84D00C61493 /* GMGridViewController.h */; };
+		446C314327BCB84D00C61493 /* GMImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 446C312027BCB84D00C61493 /* GMImagePickerController.h */; };
+		446C314427BCB84D00C61493 /* GMAlbumsViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 446C312127BCB84D00C61493 /* GMAlbumsViewCell.h */; };
+		446C314527BCB84D00C61493 /* GMGridViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 446C312427BCB84D00C61493 /* GMGridViewCell.h */; };
+		446C314627BCB84D00C61493 /* GMSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446C312527BCB84D00C61493 /* GMSelected@2x.png */; };
+		446C314727BCB84D00C61493 /* GMEmptyFolder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446C312627BCB84D00C61493 /* GMEmptyFolder@2x.png */; };
+		446C314827BCB84D00C61493 /* GMVideoIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446C312727BCB84D00C61493 /* GMVideoIcon@2x.png */; };
+		446C314927BCB84D00C61493 /* GMImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446C312A27BCB84D00C61493 /* GMImagePickerController.m */; };
+		446C314A27BCB84D00C61493 /* GMGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446C312B27BCB84D00C61493 /* GMGridViewController.m */; };
+		446C314B27BCB84D00C61493 /* GMVideoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 446C312C27BCB84D00C61493 /* GMVideoIcon.png */; };
+		446C314C27BCB84D00C61493 /* GMAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446C312D27BCB84D00C61493 /* GMAlbumsViewController.m */; };
+		446C314D27BCB84D00C61493 /* GMEmptyFolder@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446C312E27BCB84D00C61493 /* GMEmptyFolder@1x.png */; };
+		446C314E27BCB84D00C61493 /* GMAlbumsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 446C312F27BCB84D00C61493 /* GMAlbumsViewCell.m */; };
+		446C314F27BCB84D00C61493 /* GMSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 446C313127BCB84D00C61493 /* GMSelected.png */; };
+		446C315027BCB84D00C61493 /* GMGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 446C313327BCB84D00C61493 /* GMGridViewCell.m */; };
+		446C315227BCB84E00C61493 /* ORKImagePickerCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 446C313727BCB84D00C61493 /* ORKImagePickerCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446C315327BCB84E00C61493 /* ORKImagePickerStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 446C313827BCB84D00C61493 /* ORKImagePickerStep.m */; };
+		446C315427BCB84E00C61493 /* ORKImagePickerStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 446C313927BCB84D00C61493 /* ORKImagePickerStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446C315627BCB84E00C61493 /* ORKImagePickerStepResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 446C313B27BCB84D00C61493 /* ORKImagePickerStepResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		510743F4227C92FC00574EC4 /* TrackLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510743F3227C92FC00574EC4 /* TrackLayer.swift */; };
 		510743F6227C933200574EC4 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510743F5227C933200574EC4 /* Math.swift */; };
 		510743F8227C934000574EC4 /* CircleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510743F7227C934000574EC4 /* CircleSlider.swift */; };
@@ -1104,6 +1130,40 @@
 		2EBFE11C1AE1B32D00CB8254 /* ORKUIViewAccessibilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKUIViewAccessibilityTests.m; sourceTree = "<group>"; };
 		2EBFE11E1AE1B68800CB8254 /* ORKVoiceEngine_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORKVoiceEngine_Internal.h; sourceTree = "<group>"; };
 		2EBFE11F1AE1B74100CB8254 /* ORKVoiceEngineTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKVoiceEngineTests.m; sourceTree = "<group>"; };
+		4410AC6127BF2DC500F75B00 /* ORKImagePickerStepViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ORKImagePickerStepViewController.xib; path = "../../../../Downloads/bitmark-mobile-health-plus-cbd6791c6ab3123feb4b5b773f015ec8b16eec3b/ios/ResearchKitUtils/ORKImageSelectionStep/ORKImagePickerStepViewController.xib"; sourceTree = "<group>"; };
+		446C311627BCB84D00C61493 /* ORKImagePickerStepResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORKImagePickerStepResult.m; path = "../../../../Downloads/bitmark-mobile-health-plus-cbd6791c6ab3123feb4b5b773f015ec8b16eec3b/ios/ResearchKitUtils/ORKImageSelectionStep/ORKImagePickerStepResult.m"; sourceTree = "<group>"; };
+		446C311727BCB84D00C61493 /* ORKImagePickerStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORKImagePickerStepViewController.h; path = "../../../../Downloads/bitmark-mobile-health-plus-cbd6791c6ab3123feb4b5b773f015ec8b16eec3b/ios/ResearchKitUtils/ORKImageSelectionStep/ORKImagePickerStepViewController.h"; sourceTree = "<group>"; };
+		446C311827BCB84D00C61493 /* ORKImagePickerStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORKImagePickerStepViewController.m; path = "../../../../Downloads/bitmark-mobile-health-plus-cbd6791c6ab3123feb4b5b773f015ec8b16eec3b/ios/ResearchKitUtils/ORKImageSelectionStep/ORKImagePickerStepViewController.m"; sourceTree = "<group>"; };
+		446C311927BCB84D00C61493 /* ORKImagePickerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORKImagePickerCollectionViewCell.m; path = "../../../../Downloads/bitmark-mobile-health-plus-cbd6791c6ab3123feb4b5b773f015ec8b16eec3b/ios/ResearchKitUtils/ORKImageSelectionStep/ORKImagePickerCollectionViewCell.m"; sourceTree = "<group>"; };
+		446C311C27BCB84D00C61493 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/GMImagePicker.strings; sourceTree = "<group>"; };
+		446C311D27BCB84D00C61493 /* GMAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMAlbumsViewController.h; sourceTree = "<group>"; };
+		446C311E27BCB84D00C61493 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/GMImagePicker.strings; sourceTree = "<group>"; };
+		446C311F27BCB84D00C61493 /* GMGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMGridViewController.h; sourceTree = "<group>"; };
+		446C312027BCB84D00C61493 /* GMImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMImagePickerController.h; sourceTree = "<group>"; };
+		446C312127BCB84D00C61493 /* GMAlbumsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMAlbumsViewCell.h; sourceTree = "<group>"; };
+		446C312227BCB84D00C61493 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/GMImagePicker.strings; sourceTree = "<group>"; };
+		446C312327BCB84D00C61493 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/GMImagePicker.strings; sourceTree = "<group>"; };
+		446C312427BCB84D00C61493 /* GMGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMGridViewCell.h; sourceTree = "<group>"; };
+		446C312527BCB84D00C61493 /* GMSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GMSelected@2x.png"; sourceTree = "<group>"; };
+		446C312627BCB84D00C61493 /* GMEmptyFolder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GMEmptyFolder@2x.png"; sourceTree = "<group>"; };
+		446C312727BCB84D00C61493 /* GMVideoIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GMVideoIcon@2x.png"; sourceTree = "<group>"; };
+		446C312827BCB84D00C61493 /* vi-VN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "vi-VN"; path = "vi-VN.lproj/GMImagePicker.strings"; sourceTree = "<group>"; };
+		446C312927BCB84D00C61493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/GMImagePicker.strings; sourceTree = "<group>"; };
+		446C312A27BCB84D00C61493 /* GMImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMImagePickerController.m; sourceTree = "<group>"; };
+		446C312B27BCB84D00C61493 /* GMGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMGridViewController.m; sourceTree = "<group>"; };
+		446C312C27BCB84D00C61493 /* GMVideoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GMVideoIcon.png; sourceTree = "<group>"; };
+		446C312D27BCB84D00C61493 /* GMAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMAlbumsViewController.m; sourceTree = "<group>"; };
+		446C312E27BCB84D00C61493 /* GMEmptyFolder@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GMEmptyFolder@1x.png"; sourceTree = "<group>"; };
+		446C312F27BCB84D00C61493 /* GMAlbumsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMAlbumsViewCell.m; sourceTree = "<group>"; };
+		446C313027BCB84D00C61493 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/GMImagePicker.strings; sourceTree = "<group>"; };
+		446C313127BCB84D00C61493 /* GMSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GMSelected.png; sourceTree = "<group>"; };
+		446C313227BCB84D00C61493 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/GMImagePicker.strings; sourceTree = "<group>"; };
+		446C313327BCB84D00C61493 /* GMGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMGridViewCell.m; sourceTree = "<group>"; };
+		446C313627BCB84D00C61493 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/GMImagePicker.strings; sourceTree = "<group>"; };
+		446C313727BCB84D00C61493 /* ORKImagePickerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORKImagePickerCollectionViewCell.h; path = "../../../../Downloads/bitmark-mobile-health-plus-cbd6791c6ab3123feb4b5b773f015ec8b16eec3b/ios/ResearchKitUtils/ORKImageSelectionStep/ORKImagePickerCollectionViewCell.h"; sourceTree = "<group>"; };
+		446C313827BCB84D00C61493 /* ORKImagePickerStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORKImagePickerStep.m; path = "../../../../Downloads/bitmark-mobile-health-plus-cbd6791c6ab3123feb4b5b773f015ec8b16eec3b/ios/ResearchKitUtils/ORKImageSelectionStep/ORKImagePickerStep.m"; sourceTree = "<group>"; };
+		446C313927BCB84D00C61493 /* ORKImagePickerStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORKImagePickerStep.h; path = "../../../../Downloads/bitmark-mobile-health-plus-cbd6791c6ab3123feb4b5b773f015ec8b16eec3b/ios/ResearchKitUtils/ORKImageSelectionStep/ORKImagePickerStep.h"; sourceTree = "<group>"; };
+		446C313B27BCB84D00C61493 /* ORKImagePickerStepResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORKImagePickerStepResult.h; path = "../../../../Downloads/bitmark-mobile-health-plus-cbd6791c6ab3123feb4b5b773f015ec8b16eec3b/ios/ResearchKitUtils/ORKImageSelectionStep/ORKImagePickerStepResult.h"; sourceTree = "<group>"; };
 		510743F3227C92FC00574EC4 /* TrackLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackLayer.swift; sourceTree = "<group>"; };
 		510743F5227C933200574EC4 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 		510743F7227C934000574EC4 /* CircleSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSlider.swift; sourceTree = "<group>"; };
@@ -2327,6 +2387,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		446C311A27BCB84D00C61493 /* GMImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				446C311B27BCB84D00C61493 /* GMImagePicker.strings */,
+				446C311D27BCB84D00C61493 /* GMAlbumsViewController.h */,
+				446C311F27BCB84D00C61493 /* GMGridViewController.h */,
+				446C312027BCB84D00C61493 /* GMImagePickerController.h */,
+				446C312127BCB84D00C61493 /* GMAlbumsViewCell.h */,
+				446C312427BCB84D00C61493 /* GMGridViewCell.h */,
+				446C312527BCB84D00C61493 /* GMSelected@2x.png */,
+				446C312627BCB84D00C61493 /* GMEmptyFolder@2x.png */,
+				446C312727BCB84D00C61493 /* GMVideoIcon@2x.png */,
+				446C312A27BCB84D00C61493 /* GMImagePickerController.m */,
+				446C312B27BCB84D00C61493 /* GMGridViewController.m */,
+				446C312C27BCB84D00C61493 /* GMVideoIcon.png */,
+				446C312D27BCB84D00C61493 /* GMAlbumsViewController.m */,
+				446C312E27BCB84D00C61493 /* GMEmptyFolder@1x.png */,
+				446C312F27BCB84D00C61493 /* GMAlbumsViewCell.m */,
+				446C313127BCB84D00C61493 /* GMSelected.png */,
+				446C313327BCB84D00C61493 /* GMGridViewCell.m */,
+			);
+			name = GMImagePicker;
+			path = "../../../../Downloads/bitmark-mobile-health-plus-cbd6791c6ab3123feb4b5b773f015ec8b16eec3b/ios/ResearchKitUtils/ORKImageSelectionStep/GMImagePicker";
+			sourceTree = "<group>";
+		};
 		510743F1227C929000574EC4 /* Landolt C */ = {
 			isa = PBXGroup;
 			children = (
@@ -2349,6 +2434,29 @@
 				510743F9227C935400574EC4 /* EyeActivitySlider.swift */,
 			);
 			name = "Custom Vision View";
+			sourceTree = "<group>";
+		};
+		51198798245FC31C004FC2C7 /* 3D Model Manager */ = {
+			isa = PBXGroup;
+			children = (
+				51198799245FC33C004FC2C7 /* ORK3DModelManager.h */,
+				5D26E77724997EA200E53D27 /* ORK3DModelManager_Internal.h */,
+				5119879A245FC33C004FC2C7 /* ORK3DModelManager.m */,
+			);
+			name = "3D Model Manager";
+			sourceTree = "<group>";
+		};
+		511987B624612C95004FC2C7 /* USDZ Model Manager */ = {
+			isa = PBXGroup;
+			children = (
+				51198767245CA50D004FC2C7 /* ORKUSDZModelManagerScene.h */,
+				51198768245CA50D004FC2C7 /* ORKUSDZModelManagerScene.m */,
+				5119879D245FE68D004FC2C7 /* ORKUSDZModelManager.h */,
+				5119879E245FE68D004FC2C7 /* ORKUSDZModelManager.m */,
+				5166E49D247355D500151C57 /* ORKUSDZModelManagerResult.h */,
+				5166E49E247355D500151C57 /* ORKUSDZModelManagerResult.m */,
+			);
+			name = "USDZ Model Manager";
 			sourceTree = "<group>";
 		};
 		511987C024632E33004FC2C7 /* Request Permissions Step */ = {
@@ -2376,29 +2484,6 @@
 				BA95AA9320ACD05100E7FF8E /* AmslerGrid */,
 			);
 			name = "Vision Tasks";
-			sourceTree = "<group>";
-		};
-		51198798245FC31C004FC2C7 /* 3D Model Manager */ = {
-			isa = PBXGroup;
-			children = (
-				51198799245FC33C004FC2C7 /* ORK3DModelManager.h */,
-				5D26E77724997EA200E53D27 /* ORK3DModelManager_Internal.h */,
-				5119879A245FC33C004FC2C7 /* ORK3DModelManager.m */,
-			);
-			name = "3D Model Manager";
-			sourceTree = "<group>";
-		};
-		511987B624612C95004FC2C7 /* USDZ Model Manager */ = {
-			isa = PBXGroup;
-			children = (
-				51198767245CA50D004FC2C7 /* ORKUSDZModelManagerScene.h */,
-				51198768245CA50D004FC2C7 /* ORKUSDZModelManagerScene.m */,
-				5119879D245FE68D004FC2C7 /* ORKUSDZModelManager.h */,
-				5119879E245FE68D004FC2C7 /* ORKUSDZModelManager.m */,
-				5166E49D247355D500151C57 /* ORKUSDZModelManagerResult.h */,
-				5166E49E247355D500151C57 /* ORKUSDZModelManagerResult.m */,
-			);
-			name = "USDZ Model Manager";
 			sourceTree = "<group>";
 		};
 		5175144B2459EBD3009E8FFC /* 3D Model */ = {
@@ -3032,6 +3117,16 @@
 		B12EFF341AB2111200A80147 /* Step */ = {
 			isa = PBXGroup;
 			children = (
+				446C311A27BCB84D00C61493 /* GMImagePicker */,
+				446C313727BCB84D00C61493 /* ORKImagePickerCollectionViewCell.h */,
+				446C311927BCB84D00C61493 /* ORKImagePickerCollectionViewCell.m */,
+				446C313927BCB84D00C61493 /* ORKImagePickerStep.h */,
+				446C313827BCB84D00C61493 /* ORKImagePickerStep.m */,
+				446C313B27BCB84D00C61493 /* ORKImagePickerStepResult.h */,
+				446C311627BCB84D00C61493 /* ORKImagePickerStepResult.m */,
+				446C311727BCB84D00C61493 /* ORKImagePickerStepViewController.h */,
+				446C311827BCB84D00C61493 /* ORKImagePickerStepViewController.m */,
+				4410AC6127BF2DC500F75B00 /* ORKImagePickerStepViewController.xib */,
 				86C40BB91A8D7C5C00081FAC /* ORKStep.h */,
 				86C40BBA1A8D7C5C00081FAC /* ORKStep.m */,
 				BAD65E4F2284F266008A5DCE /* ORKStepView_Private.h */,
@@ -3981,6 +4076,7 @@
 				BF5161501BE9C53D00174DDD /* ORKWaitStep.h in Headers */,
 				244EFAD21BCEFD83001850D9 /* ORKAnswerFormat_Private.h in Headers */,
 				BCA5C0351AEC05F20092AC8D /* ORKStepNavigationRule.h in Headers */,
+				446C314227BCB84D00C61493 /* GMGridViewController.h in Headers */,
 				2E8070F71FAD217500E4FC7F /* ORKSpeechRecognizer.h in Headers */,
 				BF91559C1BDE8D7D007FA459 /* ORKReviewStep.h in Headers */,
 				65EEE15E21B12F53007858E8 /* ORKTouchAbilityLongPressTrial.h in Headers */,
@@ -4071,6 +4167,7 @@
 				FF5CA61B1D2C6453001660A3 /* ORKSignatureStep.h in Headers */,
 				71769E312088260B00A19914 /* ORKdBHLToneAudiometryOnboardingStepViewController.h in Headers */,
 				AE2CF2C123231C5A00FDD733 /* ORKTagLabel.h in Headers */,
+				446C315227BCB84E00C61493 /* ORKImagePickerCollectionViewCell.h in Headers */,
 				FF919A471E81BA3D005C2A1E /* ORKHolePegTestResult.h in Headers */,
 				5175144E2459EBF0009E8FFC /* ORK3DModelStep.h in Headers */,
 				25ECC0A31AFBDD2700F3D63B /* ORKReactionTimeStimulusView.h in Headers */,
@@ -4116,6 +4213,8 @@
 				86C40D201A8D7C5C00081FAC /* ORKFormStep.h in Headers */,
 				BCD192EB1B81245500FCC08A /* ORKPieChartTitleTextView.h in Headers */,
 				249F44E51BCD9EAC0000D57E /* ORKFormStepViewController_Internal.h in Headers */,
+				446C315627BCB84E00C61493 /* ORKImagePickerStepResult.h in Headers */,
+				446C315427BCB84E00C61493 /* ORKImagePickerStep.h in Headers */,
 				515310CF233570CF007BCA58 /* ORKDontKnowButton.h in Headers */,
 				781D54101DF886AB00223305 /* ORKTrailmakingContentView.h in Headers */,
 				86C40C761A8D7C5C00081FAC /* HKSample+ORKJSONDictionary.h in Headers */,
@@ -4181,6 +4280,7 @@
 				653BB63A219AF25800138F18 /* ORKTouchAbilityTapResult.h in Headers */,
 				00C2668A2302244300337E0B /* ORKCustomStepViewController.h in Headers */,
 				865EA16C1ABA1BE20037C68E /* ORKSurveyAnswerCellForPicker.h in Headers */,
+				446C314327BCB84D00C61493 /* GMImagePickerController.h in Headers */,
 				86C40C121A8D7C5C00081FAC /* ORKActiveStepQuantityView.h in Headers */,
 				86C40CCC1A8D7C5C00081FAC /* ORKImageSelectionView.h in Headers */,
 				BA2645E62301571800D00B73 /* ORKReviewViewController.h in Headers */,
@@ -4197,6 +4297,7 @@
 				86C40E241A8D7C5C00081FAC /* ORKEAGLMoviePlayerView.h in Headers */,
 				7118AC7720BF6A7800D7A6BB /* ORKSpeechInNoiseContentView.h in Headers */,
 				BA473FED224DBA3700A362E3 /* ORKLearnMoreView.h in Headers */,
+				446C314427BCB84D00C61493 /* GMAlbumsViewCell.h in Headers */,
 				B183A4DD1A8535D100C76870 /* ResearchKit.h in Headers */,
 				95E11E551D73396300BF865B /* ORKShoulderRangeOfMotionStepViewController.h in Headers */,
 				86C40D101A8D7C5C00081FAC /* ORKDefaultFont.h in Headers */,
@@ -4234,6 +4335,7 @@
 				86C40CB81A8D7C5C00081FAC /* ORKVoiceEngine.h in Headers */,
 				24A4DA141B8D1115009C797A /* ORKPasscodeStep.h in Headers */,
 				BCB6E6521B7D533B000D5B34 /* ORKPieChartLegendCell.h in Headers */,
+				446C314527BCB84D00C61493 /* GMGridViewCell.h in Headers */,
 				FA7A9D331B0843A9005A2BEA /* ORKConsentSignatureFormatter.h in Headers */,
 				6553165A21CCE90C00D889BB /* ORKTouchAbilityScrollContentView.h in Headers */,
 				86C40C5A1A8D7C5C00081FAC /* ORKWalkingTaskStep.h in Headers */,
@@ -4410,6 +4512,7 @@
 				2489F7B11D65214D008DEF20 /* ORKVideoCaptureStep.h in Headers */,
 				861D11AD1AA7951F003C98A7 /* ORKChoiceAnswerFormatHelper.h in Headers */,
 				86C40C461A8D7C5C00081FAC /* ORKSpatialSpanMemoryStepViewController.h in Headers */,
+				446C313D27BCB84D00C61493 /* ORKImagePickerStepViewController.h in Headers */,
 				51198769245CA50D004FC2C7 /* ORKUSDZModelManagerScene.h in Headers */,
 				86C40C521A8D7C5C00081FAC /* ORKTappingIntervalStep.h in Headers */,
 				86C40D8A1A8D7C5C00081FAC /* ORKSkin.h in Headers */,
@@ -4419,6 +4522,7 @@
 				D442397D1AF17F7600559D96 /* ORKImageCaptureStepViewController.h in Headers */,
 				86C40C4A1A8D7C5C00081FAC /* ORKSpatialSpanTargetView.h in Headers */,
 				BADA2F26225DA54B005D2255 /* ORKInstructionStepContainerView.h in Headers */,
+				446C314127BCB84D00C61493 /* GMAlbumsViewController.h in Headers */,
 				866DA5221D63D04700C9AF3F /* ORKDataCollectionManager_Internal.h in Headers */,
 				86C40C1A1A8D7C5C00081FAC /* ORKAudioStep.h in Headers */,
 			);
@@ -4535,6 +4639,8 @@
 				no,
 				"es-419",
 				es_419,
+				"vi-VN",
+				pt,
 			);
 			mainGroup = 3FFF18341829DB1D00167070;
 			productRefGroup = 3FFF183E1829DB1D00167070 /* Products */;
@@ -4568,16 +4674,20 @@
 				71B7B4DA20AA91D400C5768A /* retspl_AIRPODS.plist in Resources */,
 				71F3B28021001DED00FB1C41 /* splMeter_sensitivity_offset.plist in Resources */,
 				E26E32D622E75FB7004F42EC /* Noise.wav in Resources */,
+				446C314727BCB84D00C61493 /* GMEmptyFolder@2x.png in Resources */,
 				713D4B1E20FE5480002BE28D /* retspl_EARPODS.plist in Resources */,
 				B1A860F31A9693C400EA57B7 /* consent_03@3x.m4v in Resources */,
 				B1A860F11A9693C400EA57B7 /* consent_01@3x.m4v in Resources */,
 				E26E32D722E75FBF004F42EC /* Window.wav in Resources */,
+				446C314027BCB84D00C61493 /* GMImagePicker.strings in Resources */,
 				B1A860F71A9693C400EA57B7 /* consent_07@3x.m4v in Resources */,
 				714E7EA82405F08600536298 /* frequency_dBSPL_AIRPODSPRO.plist in Resources */,
 				713D4B1020FE4702002BE28D /* volume_curve_WIRED.plist in Resources */,
 				713D4B1C20FE5464002BE28D /* frequency_dBSPL_EARPODS.plist in Resources */,
+				446C314B27BCB84D00C61493 /* GMVideoIcon.png in Resources */,
 				B1A860F21A9693C400EA57B7 /* consent_02@3x.m4v in Resources */,
 				B1A860EB1A9693C400EA57B7 /* consent_02@2x.m4v in Resources */,
+				446C314827BCB84D00C61493 /* GMVideoIcon@2x.png in Resources */,
 				B1A860F61A9693C400EA57B7 /* consent_06@3x.m4v in Resources */,
 				B1A860F01A9693C400EA57B7 /* consent_07@2x.m4v in Resources */,
 				7118AC6920BF6A3A00D7A6BB /* Sentence6.wav in Resources */,
@@ -4585,7 +4695,9 @@
 				B1A860EC1A9693C400EA57B7 /* consent_03@2x.m4v in Resources */,
 				B1A860F41A9693C400EA57B7 /* consent_04@3x.m4v in Resources */,
 				71B7B4DF20AA91D400C5768A /* volume_curve_AIRPODS.plist in Resources */,
+				4410AC6327BF2ED100F75B00 /* ORKImagePickerStepViewController.xib in Resources */,
 				B1A860ED1A9693C400EA57B7 /* consent_04@2x.m4v in Resources */,
+				446C314627BCB84D00C61493 /* GMSelected@2x.png in Resources */,
 				7118AC6820BF6A3A00D7A6BB /* Sentence4.wav in Resources */,
 				BA22F76D20C4F884006E6E11 /* SentencesList.txt in Resources */,
 				B17FE7FD1A8DBE7C00BF9C28 /* Artwork.xcassets in Resources */,
@@ -4596,10 +4708,12 @@
 				86C40DFC1A8D7C5C00081FAC /* MovieTintShader.vsh in Resources */,
 				714080DB235FD14700281E04 /* ResearchKit.stringsdict in Resources */,
 				7118AC6B20BF6A3A00D7A6BB /* Sentence3.wav in Resources */,
+				446C314D27BCB84D00C61493 /* GMEmptyFolder@1x.png in Resources */,
 				71B7B4DE20AA91D400C5768A /* frequency_dBSPL_AIRPODS.plist in Resources */,
 				B1A860F51A9693C400EA57B7 /* consent_05@3x.m4v in Resources */,
 				714E7EA62405F08600536298 /* retspl_AIRPODSPRO.plist in Resources */,
 				7118AC6720BF6A3A00D7A6BB /* Sentence7.wav in Resources */,
+				446C314F27BCB84D00C61493 /* GMSelected.png in Resources */,
 				7118AC6D20BF6A3A00D7A6BB /* Sentence1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4709,6 +4823,7 @@
 				25ECC0A01AFBD92D00F3D63B /* ORKReactionTimeContentView.m in Sources */,
 				86C40D4C1A8D7C5C00081FAC /* ORKLabel.m in Sources */,
 				510743F4227C92FC00574EC4 /* TrackLayer.swift in Sources */,
+				446C313C27BCB84D00C61493 /* ORKImagePickerStepResult.m in Sources */,
 				86C40C9E1A8D7C5C00081FAC /* ORKDeviceMotionRecorder.m in Sources */,
 				FFF65AB91E318F2D0043FB40 /* ORKMultipleValuePicker.m in Sources */,
 				86C40D961A8D7C5C00081FAC /* ORKStepViewController.m in Sources */,
@@ -4723,6 +4838,7 @@
 				FF919A2F1E81AAD0005C2A1E /* ORKTowerOfHanoiResult.m in Sources */,
 				BCB6E6531B7D533B000D5B34 /* ORKPieChartLegendCell.m in Sources */,
 				866DA52A1D63D04700C9AF3F /* ORKOperation.m in Sources */,
+				446C315327BCB84E00C61493 /* ORKImagePickerStep.m in Sources */,
 				86C40D8C1A8D7C5C00081FAC /* ORKSkin.m in Sources */,
 				86C40D221A8D7C5C00081FAC /* ORKFormStep.m in Sources */,
 				7118AC7820BF6A7800D7A6BB /* ORKSpeechInNoiseStep.m in Sources */,
@@ -4733,6 +4849,7 @@
 				6553165721CCE8C500D889BB /* ORKTouchAbilityScrollStepViewController.m in Sources */,
 				2429D5731BBB5397003A512F /* ORKRegistrationStep.m in Sources */,
 				BAC2B65822F252F70079304E /* ORKSurveyAnswerCellForSES.m in Sources */,
+				446C315027BCB84D00C61493 /* GMGridViewCell.m in Sources */,
 				257FCE201B4D14E50001EF06 /* ORKTowerOfHanoiTowerView.m in Sources */,
 				2489F7B61D65214D008DEF20 /* ORKVideoCaptureView.m in Sources */,
 				861D11AE1AA7951F003C98A7 /* ORKChoiceAnswerFormatHelper.m in Sources */,
@@ -4741,6 +4858,7 @@
 				BF91559D1BDE8D7D007FA459 /* ORKReviewStep.m in Sources */,
 				86C40C381A8D7C5C00081FAC /* ORKSpatialSpanGame.m in Sources */,
 				65EF3C0321B7BAA8007BE0D6 /* ORKTouchAbilitySwipeResult.m in Sources */,
+				446C314A27BCB84D00C61493 /* GMGridViewController.m in Sources */,
 				86C40C481A8D7C5C00081FAC /* ORKSpatialSpanMemoryStepViewController.m in Sources */,
 				86C40CDA1A8D7C5C00081FAC /* ORKTextFieldView.m in Sources */,
 				8419D6731FB73EC60088D7E5 /* ORKWebViewStepViewController.m in Sources */,
@@ -4795,6 +4913,7 @@
 				6500FC9E21CA3C0B00AC1CA3 /* ORKTouchAbilityRotationTrial.m in Sources */,
 				86C40E201A8D7C5C00081FAC /* ORKConsentSignature.m in Sources */,
 				BF1D43861D4904C6007EE90B /* ORKVideoInstructionStep.m in Sources */,
+				446C314927BCB84D00C61493 /* GMImagePickerController.m in Sources */,
 				9550E67D1D58DD2000C691B8 /* ORKTouchAnywhereStepViewController.m in Sources */,
 				86C40C601A8D7C5C00081FAC /* ORKWalkingTaskStepViewController.m in Sources */,
 				BCD192E01B81240400FCC08A /* ORKPieChartPieView.m in Sources */,
@@ -4861,6 +4980,7 @@
 				BA8C066C22ECF7C200ACDE6B /* ORKSecondaryTaskStep.m in Sources */,
 				FF919A5A1E81C628005C2A1E /* ORKQuestionResult.m in Sources */,
 				D458520B1AF6CCFA00A2DE13 /* ORKImageCaptureCameraPreviewView.m in Sources */,
+				446C313E27BCB84D00C61493 /* ORKImagePickerStepViewController.m in Sources */,
 				BA473FE9224DB38900A362E3 /* ORKBodyItem.m in Sources */,
 				86C40E1A1A8D7C5C00081FAC /* ORKConsentSection.m in Sources */,
 				86C40C241A8D7C5C00081FAC /* ORKCountdownStep.m in Sources */,
@@ -4892,6 +5012,7 @@
 				65EEE15B21B12CFD007858E8 /* ORKTouchAbilityLongPressStepViewController.m in Sources */,
 				65D152372192D08C00E45120 /* ORKTouchAbilityTrial.m in Sources */,
 				FA7A9D341B0843A9005A2BEA /* ORKConsentSignatureFormatter.m in Sources */,
+				446C314E27BCB84D00C61493 /* GMAlbumsViewCell.m in Sources */,
 				86C40CFC1A8D7C5C00081FAC /* ORKCaption1Label.m in Sources */,
 				86C40E001A8D7C5C00081FAC /* ORKConsentDocument.m in Sources */,
 				D442397A1AF17F5100559D96 /* ORKImageCaptureStep.m in Sources */,
@@ -4983,6 +5104,7 @@
 				FF5E3CCC1D23444400ECE4B7 /* ORKPageStepViewController.m in Sources */,
 				86C40C581A8D7C5C00081FAC /* ORKTappingIntervalStepViewController.m in Sources */,
 				BA473FE4224DAFEF00A362E3 /* ORKBodyContainerView.m in Sources */,
+				446C313F27BCB84D00C61493 /* ORKImagePickerCollectionViewCell.m in Sources */,
 				BA0AA6971EAEC0B600671ACE /* ORKStroopStep.m in Sources */,
 				65EF3C0B21B7BE2C007BE0D6 /* ORKTouchAbilitySwipeContentView.m in Sources */,
 				BAD6FAB22332A2FD006647E7 /* ORKCheckmarkView.m in Sources */,
@@ -5007,6 +5129,7 @@
 				86C40D361A8D7C5C00081FAC /* ORKHelpers.m in Sources */,
 				86C40C181A8D7C5C00081FAC /* ORKAudioContentView.m in Sources */,
 				86C40C8E1A8D7C5C00081FAC /* ORKActiveStepViewController.m in Sources */,
+				446C314C27BCB84D00C61493 /* GMAlbumsViewController.m in Sources */,
 				10864CA51B27146B000F4158 /* ORKPSATKeyboardView.m in Sources */,
 				86C40CE61A8D7C5C00081FAC /* ORKAnswerFormat.m in Sources */,
 				25ECC0961AFBD68300F3D63B /* ORKReactionTimeStep.m in Sources */,
@@ -5098,6 +5221,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		446C311B27BCB84D00C61493 /* GMImagePicker.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				446C311C27BCB84D00C61493 /* de */,
+				446C311E27BCB84D00C61493 /* en */,
+				446C312227BCB84D00C61493 /* es */,
+				446C312327BCB84D00C61493 /* it */,
+				446C312827BCB84D00C61493 /* vi-VN */,
+				446C312927BCB84D00C61493 /* Base */,
+				446C313027BCB84D00C61493 /* fr */,
+				446C313227BCB84D00C61493 /* pt */,
+				446C313627BCB84D00C61493 /* ca */,
+			);
+			name = GMImagePicker.strings;
+			sourceTree = "<group>";
+		};
 		714080D9235FD14700281E04 /* ResearchKit.stringsdict */ = {
 			isa = PBXVariantGroup;
 			children = (

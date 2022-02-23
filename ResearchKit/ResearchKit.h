@@ -56,6 +56,8 @@
 #import <ResearchKit/ORKWaitStep.h>
 #import <ResearchKit/ORKVideoInstructionStep.h>
 #import <ResearchKit/ORKFrontFacingCameraStep.h>
+#import <ResearchKit/ORKImagePickerStep.h>
+#import <ResearchKit/ORKImagePickerStepViewController.h>
 #import <ResearchKit/ORKWebViewStep.h>
 #import <ResearchKit/ORKCustomStep.h>
 #import <ResearchKit/ORKEnvironmentSPLMeterStep.h>

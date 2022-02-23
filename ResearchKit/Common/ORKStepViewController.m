@@ -94,6 +94,16 @@ static const CGFloat iPadStepTitleLabelFontSize = 50.0;
     return self;
 }
 
+- (instancetype)initWithStepAndNib:(ORKStep *)step nib:(NSString *)nibNameOrNil {
+    self = [super initWithNibName:nibNameOrNil bundle:nil];
+    if (self) {
+        _wasSkipped = false;
+        [self initializeInternalButtonItems];
+        [self setStep:step];
+    }
+    return self;
+}
+
 - (instancetype)initWithStep:(ORKStep *)step result:(ORKResult *)result {
     // The default implementation ignores the previous result.
     return [self initWithStep:step];
