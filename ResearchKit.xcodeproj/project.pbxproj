@@ -163,7 +163,7 @@
 		44E496E427C6D0A200D458C2 /* ORKImagePickerStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E496C627C6D0A200D458C2 /* ORKImagePickerStepViewController.m */; };
 		44E496E527C6D0A200D458C2 /* ORKImagePickerCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E496C727C6D0A200D458C2 /* ORKImagePickerCollectionViewCell.h */; };
 		44E496E627C6D0A200D458C2 /* ORKImagePickerStepResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E496C827C6D0A200D458C2 /* ORKImagePickerStepResult.h */; };
-		44E496E727C6D0A300D458C2 /* ORKImagePickerStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E496C927C6D0A200D458C2 /* ORKImagePickerStep.h */; };
+		44E496E727C6D0A300D458C2 /* ORKImagePickerStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E496C927C6D0A200D458C2 /* ORKImagePickerStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44E496E827C6D0A300D458C2 /* GMAlbumsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E496CB27C6D0A200D458C2 /* GMAlbumsViewController.h */; };
 		44E496E927C6D0A300D458C2 /* GMImagePicker.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44E496CC27C6D0A200D458C2 /* GMImagePicker.strings */; };
 		44E496EA27C6D0A300D458C2 /* GMGridViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E496CE27C6D0A200D458C2 /* GMGridViewController.h */; };
@@ -182,7 +182,7 @@
 		44E496F727C6D0A300D458C2 /* GMSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 44E496DC27C6D0A200D458C2 /* GMSelected.png */; };
 		44E496F827C6D0A300D458C2 /* GMGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E496DD27C6D0A200D458C2 /* GMGridViewCell.m */; };
 		44E496F927C6D0A300D458C2 /* ORKImagePickerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E496DF27C6D0A200D458C2 /* ORKImagePickerCollectionViewCell.m */; };
-		44E496FA27C6D0A300D458C2 /* ORKImagePickerStepViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E496E027C6D0A200D458C2 /* ORKImagePickerStepViewController.h */; };
+		44E496FA27C6D0A300D458C2 /* ORKImagePickerStepViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E496E027C6D0A200D458C2 /* ORKImagePickerStepViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		510743F4227C92FC00574EC4 /* TrackLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510743F3227C92FC00574EC4 /* TrackLayer.swift */; };
 		510743F6227C933200574EC4 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510743F5227C933200574EC4 /* Math.swift */; };
 		510743F8227C934000574EC4 /* CircleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510743F7227C934000574EC4 /* CircleSlider.swift */; };
