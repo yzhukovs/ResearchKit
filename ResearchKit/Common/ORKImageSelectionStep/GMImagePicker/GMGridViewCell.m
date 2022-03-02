@@ -35,7 +35,7 @@ static UIColor *disabledColor;
 - (void)awakeFromNib
 {
     [super awakeFromNib];
-    
+
     self.contentView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
     self.contentView.translatesAutoresizingMaskIntoConstraints = YES;
 }
@@ -45,27 +45,19 @@ static UIColor *disabledColor;
     if (self = [super initWithFrame:frame]) {
         self.opaque                 = NO;
         self.enabled                = YES;
-        
+
         CGFloat cellSize = self.contentView.bounds.size.width;
-        
+
         // The image view
         _imageView = [UIImageView new];
         _imageView.frame = CGRectMake(0, 0, cellSize, cellSize);
         _imageView.contentMode = UIViewContentModeScaleAspectFill;
-        /*if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
-        {
-            _imageView.contentMode = UIViewContentModeScaleAspectFit;
-        }
-        else
-        {
-            _imageView.contentMode = UIViewContentModeScaleAspectFill;
-        }*/
         _imageView.clipsToBounds = YES;
         _imageView.translatesAutoresizingMaskIntoConstraints = NO;
         _imageView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
         [self addSubview:_imageView];
-        
-        
+
+
         // The video gradient, label & icon
         float x_offset = 4.0f;
         UIColor *topGradient = [UIColor colorWithRed:0.00 green:0.00 blue:0.00 alpha:0.0];
@@ -79,7 +71,7 @@ static UIColor *disabledColor;
         _gradientView.translatesAutoresizingMaskIntoConstraints = NO;
         [self addSubview:_gradientView];
         _gradientView.hidden = YES;
-        
+
         _videoIcon = [UIImageView new];
         _videoIcon.frame = CGRectMake(x_offset, self.bounds.size.height-titleHeight, self.bounds.size.width-2*x_offset, titleHeight);
         _videoIcon.contentMode = UIViewContentModeLeft;
@@ -88,7 +80,7 @@ static UIColor *disabledColor;
         _videoIcon.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleWidth;
         [self addSubview:_videoIcon];
         _videoIcon.hidden = YES;
-        
+
         _videoDuration = [UILabel new];
         _videoDuration.font = titleFont;
         _videoDuration.textColor = titleColor;
@@ -99,7 +91,7 @@ static UIColor *disabledColor;
         _videoDuration.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleWidth;
         [self addSubview:_videoDuration];
         _videoDuration.hidden = YES;
-        
+
         // Selection overlay & icon
         _coverView = [[UIView alloc] initWithFrame:self.bounds];
         _coverView.translatesAutoresizingMaskIntoConstraints = NO;
@@ -107,11 +99,11 @@ static UIColor *disabledColor;
         _coverView.backgroundColor = [UIColor colorWithRed:0.24 green:0.47 blue:0.85 alpha:0.6];
         [self addSubview:_coverView];
         _coverView.hidden = YES;
-        
+
         _selectedButton = [UIButton buttonWithType:UIButtonTypeCustom];
         _selectedButton.frame = CGRectMake(2*self.bounds.size.width/3, 0*self.bounds.size.width/3, self.bounds.size.width/3, self.bounds.size.width/3);
         _selectedButton.contentMode = UIViewContentModeTopRight;
-        _selectedButton.adjustsImageWhenHighlighted = NO;
+       // _selectedButton.adjustsImageWhenHighlighted = NO;
         [_selectedButton setImage:nil forState:UIControlStateNormal];
         _selectedButton.translatesAutoresizingMaskIntoConstraints = NO;
         _selectedButton.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
@@ -136,7 +128,7 @@ static UIColor *disabledColor;
 - (void)bind:(PHAsset *)asset
 {
     self.asset  = asset;
-    
+
     if (self.asset.mediaType == PHAssetMediaTypeVideo) {
         _videoIcon.hidden = NO;
         _videoDuration.hidden = NO;
@@ -153,11 +145,11 @@ static UIColor *disabledColor;
 - (void)setSelected:(BOOL)selected
 {
     [super setSelected:selected];
-    
+
     if (!self.shouldShowSelection) {
         return;
     }
-    
+
     _coverView.hidden = !selected;
     _selectedButton.selected = selected;
 }
@@ -171,4 +163,4 @@ static UIColor *disabledColor;
     return [NSString stringWithFormat:@"%02ld:%02ld", (long)minutes, (long)seconds];
 }
 
-@end;
+@end

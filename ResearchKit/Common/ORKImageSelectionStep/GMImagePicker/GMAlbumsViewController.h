@@ -28,4 +28,4 @@ static CGSize const kAlbumThumbnailSize3 = {62.0f , 62.0f};
 
 - (void)selectAllAlbumsCell;
 
-@end;
+@end

@@ -241,8 +241,7 @@ static CGSize const kAssetGridThumbnailSize = {100, 100};
 //method to move the view up/down whenever the keyboard is shown/dismissed
 -(void)setViewMovedUp:(BOOL)movedUp
 {
-    [UIView beginAnimations:nil context:NULL];
-    [UIView setAnimationDuration:0.3]; // if you want to slide up the view
+    [UIView animateWithDuration:0.25 animations:^{
 
     CGRect rect = self.view.frame;
     if (movedUp)
@@ -260,7 +259,8 @@ static CGSize const kAssetGridThumbnailSize = {100, 100};
     }
     self.view.frame = rect;
 
-    [UIView commitAnimations];
+    } completion:^(BOOL finished){
+    }];
 }
 
 
