@@ -176,8 +176,8 @@ NSString * const GMGridViewCellIdentifier = @"GMGridViewCellIdentifier";
                                                                                   style:UIBarButtonItemStyleDone
                                                                                  target:self.picker
                                                                                  action:@selector(finishPickingAssets:)];
-
-        self.navigationItem.rightBarButtonItem.enabled = (self.picker.autoDisableDoneButton ? self.picker.selectedAssets.count > 0 : TRUE);
+        self.navigationItem.rightBarButtonItem.tintColor = UIColor.systemBlueColor;
+        self.navigationItem.rightBarButtonItem.enabled = (self.picker.autoDisableDoneButton ? self.picker.selectedAssets.count > 0 : YES);
     } else {
         NSString *cancelTitle = self.picker.customCancelButtonTitle ? self.picker.customCancelButtonTitle : NSLocalizedStringFromTableInBundle(@"picker.navigation.cancel-button",  @"GMImagePicker", [NSBundle bundleForClass:GMImagePickerController.class], @"Cancel");
         self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:cancelTitle

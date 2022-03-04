@@ -163,7 +163,6 @@
 		2E80C1AA1FA2AA8D00399A0C /* ORKStreamingAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E80C1A91FA2AA8D00399A0C /* ORKStreamingAudioRecorder.m */; };
 		2EBFE11D1AE1B32D00CB8254 /* ORKUIViewAccessibilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFE11C1AE1B32D00CB8254 /* ORKUIViewAccessibilityTests.m */; };
 		2EBFE1201AE1B74100CB8254 /* ORKVoiceEngineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFE11F1AE1B74100CB8254 /* ORKVoiceEngineTests.m */; };
-		44E496E127C6D0A200D458C2 /* ORKImagePickerStepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E496C327C6D0A200D458C2 /* ORKImagePickerStepViewController.xib */; };
 		44E496E227C6D0A200D458C2 /* ORKImagePickerStepResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E496C427C6D0A200D458C2 /* ORKImagePickerStepResult.m */; };
 		44E496E327C6D0A200D458C2 /* ORKImagePickerStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E496C527C6D0A200D458C2 /* ORKImagePickerStep.m */; };
 		44E496E427C6D0A200D458C2 /* ORKImagePickerStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E496C627C6D0A200D458C2 /* ORKImagePickerStepViewController.m */; };
@@ -1130,7 +1129,6 @@
 		2EBFE11C1AE1B32D00CB8254 /* ORKUIViewAccessibilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKUIViewAccessibilityTests.m; sourceTree = "<group>"; };
 		2EBFE11E1AE1B68800CB8254 /* ORKVoiceEngine_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORKVoiceEngine_Internal.h; sourceTree = "<group>"; };
 		2EBFE11F1AE1B74100CB8254 /* ORKVoiceEngineTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKVoiceEngineTests.m; sourceTree = "<group>"; };
-		44E496C327C6D0A200D458C2 /* ORKImagePickerStepViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ORKImagePickerStepViewController.xib; sourceTree = "<group>"; };
 		44E496C427C6D0A200D458C2 /* ORKImagePickerStepResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKImagePickerStepResult.m; sourceTree = "<group>"; };
 		44E496C527C6D0A200D458C2 /* ORKImagePickerStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKImagePickerStep.m; sourceTree = "<group>"; };
 		44E496C627C6D0A200D458C2 /* ORKImagePickerStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKImagePickerStepViewController.m; sourceTree = "<group>"; };
@@ -2383,7 +2381,8 @@
 		44E496C227C6D0A200D458C2 /* ORKImageSelectionStep */ = {
 			isa = PBXGroup;
 			children = (
-				44E496C327C6D0A200D458C2 /* ORKImagePickerStepViewController.xib */,
+				44E496DF27C6D0A200D458C2 /* ORKImagePickerCollectionViewCell.m */,
+				44E496E027C6D0A200D458C2 /* ORKImagePickerStepViewController.h */,
 				44E496C427C6D0A200D458C2 /* ORKImagePickerStepResult.m */,
 				44E496C527C6D0A200D458C2 /* ORKImagePickerStep.m */,
 				44E496C627C6D0A200D458C2 /* ORKImagePickerStepViewController.m */,
@@ -2391,8 +2390,6 @@
 				44E496C827C6D0A200D458C2 /* ORKImagePickerStepResult.h */,
 				44E496C927C6D0A200D458C2 /* ORKImagePickerStep.h */,
 				44E496CA27C6D0A200D458C2 /* GMImagePicker */,
-				44E496DF27C6D0A200D458C2 /* ORKImagePickerCollectionViewCell.m */,
-				44E496E027C6D0A200D458C2 /* ORKImagePickerStepViewController.h */,
 			);
 			path = ORKImageSelectionStep;
 			sourceTree = "<group>";
@@ -2417,16 +2414,8 @@
 				44E496DB27C6D0A200D458C2 /* GMAlbumsViewCell.m */,
 				44E496DC27C6D0A200D458C2 /* GMSelected.png */,
 				44E496DD27C6D0A200D458C2 /* GMGridViewCell.m */,
-				44E496DE27C6D0A200D458C2 /* 0.0.2 */,
 			);
 			path = GMImagePicker;
-			sourceTree = "<group>";
-		};
-		44E496DE27C6D0A200D458C2 /* 0.0.2 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = 0.0.2;
 			sourceTree = "<group>";
 		};
 		510743F1227C929000574EC4 /* Landolt C */ = {
@@ -4673,7 +4662,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7118AC6A20BF6A3A00D7A6BB /* Sentence5.wav in Resources */,
-				44E496E127C6D0A200D458C2 /* ORKImagePickerStepViewController.xib in Resources */,
 				B1A860EE1A9693C400EA57B7 /* consent_05@2x.m4v in Resources */,
 				86C40DFA1A8D7C5C00081FAC /* MovieTintShader.fsh in Resources */,
 				E2EE530022E7735700F34987 /* VolumeCalibration.wav in Resources */,
